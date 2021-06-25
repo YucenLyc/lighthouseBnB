@@ -15,11 +15,11 @@ VALUES(1, 'Doll House', 'description', 'https://images.pexels.com/photos/1756826
 (4, 'Water Gate', 'description', 'https://images.pexels.com/photos/1756826/pexels-photo-1756826.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/1756826/pexels-photo-1756826.jpeg', 250, 3, 2, 1, 'Canada', 'Homer.st', 'Vancouver', 'BC', 'C2X9A4', true);
 
 
--- INSERT INTO reservations (start_date, end_date, guest_id, property_id)
--- VALUES('2017-09-20', '2021-02-11', 1, 1),
--- ('2019-01-02', '2021-03-14', 2, 2),
--- ('2017-05-03', '2019-12-09', 3, 3),
--- ('2017-09-20', '2018-11-24', 4, 4);
+INSERT INTO reservations (start_date, end_date, guest_id, property_id)
+VALUES('2017-09-20', '2021-02-11', 1, 1),
+('2019-01-02', '2021-03-14', 2, 2),
+('2017-05-03', '2019-12-09', 3, 3),
+('2017-09-20', '2018-11-24', 4, 4);
 
 INSERT INTO property_reviews (guest_id, property_id, reservation_id, rating, message)
 VALUES(1, 1, 1, 9, 'message'),
